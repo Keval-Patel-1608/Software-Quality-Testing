@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{F150A50D-7B73-4862-B2A8-5B6909E44D2A}|TraingleSolverClassLibrary\\TraingleSolverClassLibrary.csproj|solutionrelative:trainglesolverclasslibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E91297F3-BEAC-4D77-8BEF-B6DA0646079E}|TriangleSolver\\TriangleSolver.csproj|c:\\users\\kvpat\\onedrive\\documents\\github\\software-quality-testing\\assignment2\\trianglesolver\\trianglesolver\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E91297F3-BEAC-4D77-8BEF-B6DA0646079E}|TriangleSolver\\TriangleSolver.csproj|C:\\Users\\kvpat\\OneDrive\\Documents\\GitHub\\Software-Quality-Testing\\Assignment2\\TriangleSolver\\trianglesolver\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E91297F3-BEAC-4D77-8BEF-B6DA0646079E}|TriangleSolver\\TriangleSolver.csproj|solutionrelative:trianglesolver\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "TraingleSolverClassLibrary\\Class1.cs",
               "ToolTip": "C:\\Users\\kvpat\\OneDrive\\Documents\\GitHub\\Software-Quality-Testing\\Assignment2\\TriangleSolver\\TraingleSolverClassLibrary\\Class1.cs",
               "RelativeToolTip": "TraingleSolverClassLibrary\\Class1.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAmwFUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAcwKgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T21:15:41.523Z",
               "EditorCaption": ""
@@ -43,8 +43,7 @@
               "RelativeToolTip": "TriangleSolver\\Triangle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T21:52:42.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T21:52:42.769Z"
             }
           ]
         }

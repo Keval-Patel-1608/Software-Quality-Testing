@@ -81,5 +81,91 @@ namespace TraingleSolverClassLibrary
             Assert.That(expected, Is.EqualTo(result));
         }
 
+        // Scalene Triangle Test 1
+        [Test]
+        public void ValidScaleneTriangle_Input300and400and500_OutputScaleneTriangle()
+        {
+            // Arrange
+            int side1 = 300;
+            int side2 = 400;
+            int side3 = 500;
+            string expected = "Scalene triangle";
+
+            // Act
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
+
+            // Assert
+            Assert.That(expected, Is.EqualTo(result));
+        }
+
+        // Scalene Triangle Test 2
+        [Test]
+        public void ValidScaleneTriangle_Input700and500and900_OutputScaleneTriangle()
+        {
+            // Arrange
+            int side1 = 700;
+            int side2 = 500;
+            int side3 = 900;
+            string expected = "Scalene triangle";
+
+            // Act
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
+
+            // Assert
+            Assert.That(expected, Is.EqualTo(result));
+        }
+
+        // Scalene Triangle Test 3
+        [Test]
+        public void ValidScaleneTriangle_Input600and800and1000_OutputScaleneTriangle()
+        {
+            // Arrange
+            int side1 = 600;
+            int side2 = 800;
+            int side3 = 1000;
+            string expected = "Scalene triangle";
+
+            // Act
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
+
+            // Assert
+            Assert.That(expected, Is.EqualTo(result));
+        }
+
+        // Scalene Triangle Test 4
+        [Test]
+        public void ValidScaleneTriangle_Input1100and1300and1700_OutputScaleneTriangle()
+        {
+            // Arrange
+            int side1 = 1100;
+            int side2 = 1300;
+            int side3 = 1700;
+            string expected = "Scalene triangle";
+
+            // Act
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
+
+            // Assert
+            Assert.That(expected, Is.EqualTo(result));
+        }
+
+        // Scalene Triangle Test 5
+        [Test]
+        public void ValidScaleneTriangle_Input800and1500and1700_OutputScaleneTriangle()
+        {
+            // Arrange
+            int side1 = 800;
+            int side2 = 1500;
+            int side3 = 1700;
+            string expected = "Scalene triangle";
+
+            // Act
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
+
+            // Assert
+            Assert.That(expected, Is.EqualTo(result));
+        }
+
+
     }
 }
