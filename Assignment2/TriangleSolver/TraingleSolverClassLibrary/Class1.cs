@@ -217,5 +217,57 @@ namespace TraingleSolverClassLibrary
             Assert.That(expected, Is.EqualTo(result));
         }
 
+        // Invalid Response Test 1
+        [Test]
+        public void InvalidTriangle_Input10and2and7_OutputInvalidTriangle()
+        {
+            // Arrange
+            int side1 = 10;
+            int side2 = 2;
+            int side3 = 7;
+            string expected = "INVALID!!";
+
+            // Act
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
+
+            // Assert
+            Assert.That(expected, Is.EqualTo(result));
+        }
+
+        // Invalid Response Test 2
+        [Test]
+        public void InvalidTriangle_Input15and5and9_OutputInvalidTriangle()
+        {
+            // Arrange
+            int side1 = 15;
+            int side2 = 5;
+            int side3 = 9;
+            string expected = "INVALID!!";
+
+            // Act
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
+
+            // Assert
+            Assert.That(expected, Is.EqualTo(result));
+        }
+
+        // Invalid Response Test 3
+        [Test]
+        public void InvalidTriangle_Input25and10and5_OutputInvalidTriangle()
+        {
+            // Arrange
+            int side1 = 25;
+            int side2 = 10;
+            int side3 = 5;
+            string expected = "INVALID!!";
+
+            // Act
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
+
+            // Assert
+            Assert.That(expected, Is.EqualTo(result));
+        }
+
+
     }
 }
