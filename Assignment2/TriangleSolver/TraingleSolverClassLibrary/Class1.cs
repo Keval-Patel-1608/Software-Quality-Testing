@@ -166,6 +166,56 @@ namespace TraingleSolverClassLibrary
             Assert.That(expected, Is.EqualTo(result));
         }
 
+        // Zero lenght side Test 1
+        [Test]
+        public void ZeroLengthSide_Input0and100and200_OutputInvalidTriangle()
+        {
+            // Arrange
+            int side1 = 0;
+            int side2 = 100;
+            int side3 = 200;
+            string expected = "Invalid Triangle - a zero has been detected";
+
+            // Act
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
+
+            // Assert
+            Assert.That(expected, Is.EqualTo(result));
+        }
+
+        // Zero lenght side Test 2
+        [Test]
+        public void ZeroLengthSide_Input300and0and400_OutputInvalidTriangle()
+        {
+            // Arrange
+            int side1 = 300;
+            int side2 = 0;
+            int side3 = 400;
+            string expected = "Invalid Triangle - a zero has been detected";
+
+            // Act
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
+
+            // Assert
+            Assert.That(expected, Is.EqualTo(result));
+        }
+
+        // Zero lenght side Test 3
+        [Test]
+        public void ZeroLengthSide_Input500and600and0_OutputInvalidTriangle()
+        {
+            // Arrange
+            int side1 = 500;
+            int side2 = 600;
+            int side3 = 0;
+            string expected = "Invalid Triangle - a zero has been detected";
+
+            // Act
+            string result = Triangle.AnalyzeTriangle(side1, side2, side3);
+
+            // Assert
+            Assert.That(expected, Is.EqualTo(result));
+        }
 
     }
 }
