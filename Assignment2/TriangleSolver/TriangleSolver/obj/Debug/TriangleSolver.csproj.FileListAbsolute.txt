@@ -10,3 +10,9 @@ C:\Users\balje\Downloads\TriangleSolver\TriangleSolver\TriangleSolver\obj\Debug\
 C:\Users\balje\Downloads\TriangleSolver\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.csproj.CoreCompileInputs.cache
 C:\Users\balje\Downloads\TriangleSolver\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.dll
 C:\Users\balje\Downloads\TriangleSolver\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.pdb
+C:\Users\kvpat\OneDrive\Documents\GitHub\Software-Quality-Testing\Assignment2\TriangleSolver\TriangleSolver\bin\Debug\TriangleSolver.dll
+C:\Users\kvpat\OneDrive\Documents\GitHub\Software-Quality-Testing\Assignment2\TriangleSolver\TriangleSolver\bin\Debug\TriangleSolver.pdb
+C:\Users\kvpat\OneDrive\Documents\GitHub\Software-Quality-Testing\Assignment2\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.csproj.AssemblyReference.cache
+C:\Users\kvpat\OneDrive\Documents\GitHub\Software-Quality-Testing\Assignment2\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.csproj.CoreCompileInputs.cache
+C:\Users\kvpat\OneDrive\Documents\GitHub\Software-Quality-Testing\Assignment2\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.dll
+C:\Users\kvpat\OneDrive\Documents\GitHub\Software-Quality-Testing\Assignment2\TriangleSolver\TriangleSolver\obj\Debug\TriangleSolver.pdb
