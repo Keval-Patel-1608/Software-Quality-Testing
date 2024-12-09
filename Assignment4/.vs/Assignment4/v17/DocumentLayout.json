@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kvpat\\source\\repos\\Assignment4\\",
+  "WorkspaceRootPath": "C:\\Users\\kvpat\\OneDrive\\Documents\\GitHub\\Software-Quality-Testing\\Assignment4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D07FA83-3ADE-451A-B1F5-46FDF2796B38}|Assignment4\\Assignment4.csproj|c:\\users\\kvpat\\source\\repos\\assignment4\\assignment4\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7D07FA83-3ADE-451A-B1F5-46FDF2796B38}|Assignment4\\Assignment4.csproj|c:\\users\\kvpat\\onedrive\\documents\\github\\software-quality-testing\\assignment4\\assignment4\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D07FA83-3ADE-451A-B1F5-46FDF2796B38}|Assignment4\\Assignment4.csproj|solutionrelative:assignment4\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\kvpat\\source\\repos\\Assignment4\\Assignment4\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\kvpat\\OneDrive\\Documents\\GitHub\\Software-Quality-Testing\\Assignment4\\Assignment4\\Class1.cs",
               "RelativeDocumentMoniker": "Assignment4\\Class1.cs",
-              "ToolTip": "C:\\Users\\kvpat\\source\\repos\\Assignment4\\Assignment4\\Class1.cs",
+              "ToolTip": "C:\\Users\\kvpat\\OneDrive\\Documents\\GitHub\\Software-Quality-Testing\\Assignment4\\Assignment4\\Class1.cs",
               "RelativeToolTip": "Assignment4\\Class1.cs",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAAAKMAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAuwP4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T06:33:26.661Z",
               "EditorCaption": ""
