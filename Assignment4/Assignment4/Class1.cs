@@ -94,7 +94,7 @@ public class InsuranceQuoteSuiteTest
     }
     [Test]
     public void InsuranceQuote03_InputValidAge35Experience9Accidents2_OutputEligibleInsuranceWithDiscount()
-    {   
+    {
         //Arrange
         driver.Navigate().GoToUrl("http://localhost/testing/prog8170a04/index.html");
         driver.Manage().Window.Size = new System.Drawing.Size(881, 802);
@@ -128,7 +128,7 @@ public class InsuranceQuoteSuiteTest
         //Arrange
         driver.Navigate().GoToUrl("http://localhost/testing/prog8170a04/");
         driver.Manage().Window.Size = new System.Drawing.Size(881, 802);
-        
+
         //Act
         driver.FindElement(By.CssSelector(".btn")).Click();
         driver.FindElement(By.Id("firstName")).Click();
@@ -143,7 +143,7 @@ public class InsuranceQuoteSuiteTest
         driver.FindElement(By.Id("age")).SendKeys("27");
         driver.FindElement(By.Id("experience")).SendKeys("3");
         driver.FindElement(By.Id("accidents")).SendKeys("0");
-        
+
         //Assert
         driver.FindElement(By.Id("btnSubmit")).Click();
         Assert.That(driver.FindElement(By.Id("phone-error")).Text, Is.EqualTo("Phone Number must follow the patterns 111-111-1111 or (111)111-1111"));
@@ -154,7 +154,7 @@ public class InsuranceQuoteSuiteTest
         //Arrange
         driver.Navigate().GoToUrl("http://localhost/testing/prog8170a04/index.html");
         driver.Manage().Window.Size = new System.Drawing.Size(881, 802);
-        
+
         //Act
         driver.FindElement(By.CssSelector(".btn")).Click();
         driver.FindElement(By.Id("firstName")).Click();
@@ -183,7 +183,7 @@ public class InsuranceQuoteSuiteTest
         //Arrange
         driver.Navigate().GoToUrl("http://localhost/testing/prog8170a04/index.html");
         driver.Manage().Window.Size = new System.Drawing.Size(881, 802);
-        
+
         //Act
         driver.FindElement(By.CssSelector(".btn")).Click();
         driver.FindElement(By.Id("firstName")).Click();
@@ -220,7 +220,7 @@ public class InsuranceQuoteSuiteTest
         //Arrange
         driver.Navigate().GoToUrl("http://localhost/testing/prog8170a04/index.html");
         driver.Manage().Window.Size = new System.Drawing.Size(881, 802);
-       
+
         //Act
         driver.FindElement(By.CssSelector(".btn")).Click();
         driver.FindElement(By.Id("firstName")).Click();
@@ -235,7 +235,7 @@ public class InsuranceQuoteSuiteTest
         driver.FindElement(By.Id("experience")).Click();
         driver.FindElement(By.Id("experience")).SendKeys("5");
         driver.FindElement(By.Id("accidents")).SendKeys("0");
-        
+
         //Assert
         driver.FindElement(By.Id("btnSubmit")).Click();
         Assert.That(driver.FindElement(By.Id("age-error")).Text, Is.EqualTo("Age (>=16) is required"));
@@ -246,7 +246,7 @@ public class InsuranceQuoteSuiteTest
         //Arrange
         driver.Navigate().GoToUrl("http://localhost/testing/prog8170a04/index.html");
         driver.Manage().Window.Size = new System.Drawing.Size(881, 802);
-        
+
         //Act
         driver.FindElement(By.CssSelector(".btn")).Click();
         driver.FindElement(By.Id("firstName")).Click();
@@ -262,7 +262,7 @@ public class InsuranceQuoteSuiteTest
         driver.FindElement(By.Id("age")).SendKeys("25");
         driver.FindElement(By.Id("experience")).Click();
         driver.FindElement(By.Id("experience")).SendKeys("8");
-        
+
         //Assert
         driver.FindElement(By.Id("btnSubmit")).Click();
         Assert.That(driver.FindElement(By.Id("accidents-error")).Text, Is.EqualTo("Number of accidents is required"));
@@ -273,7 +273,7 @@ public class InsuranceQuoteSuiteTest
         //Arrange
         driver.Navigate().GoToUrl("http://localhost/testing/prog8170a04/index.html");
         driver.Manage().Window.Size = new System.Drawing.Size(881, 802);
-        
+
         //Act
         driver.FindElement(By.CssSelector(".btn")).Click();
         driver.FindElement(By.Id("firstName")).Click();
@@ -285,12 +285,11 @@ public class InsuranceQuoteSuiteTest
         driver.FindElement(By.Id("email")).SendKeys("keval@gmail.com");
         driver.FindElement(By.Id("phone")).Click();
         driver.FindElement(By.Id("phone")).SendKeys("111-111-1111");
-        //driver.FindElement(By.CssSelector(".card-body > .form-group:nth-child(1)")).Click();
         driver.FindElement(By.Id("age")).Click();
         driver.FindElement(By.Id("age")).SendKeys("35");
         driver.FindElement(By.Id("accidents")).Click();
         driver.FindElement(By.Id("accidents")).SendKeys("0");
-        
+
         //Assert
         driver.FindElement(By.Id("btnSubmit")).Click();
         Assert.That(driver.FindElement(By.Id("experience-error")).Text, Is.EqualTo("Years of experience is required"));
@@ -301,7 +300,7 @@ public class InsuranceQuoteSuiteTest
         //Arrange
         driver.Navigate().GoToUrl("http://localhost/testing/prog8170a04/index.html");
         driver.Manage().Window.Size = new System.Drawing.Size(881, 802);
-       
+
         //Act
         driver.FindElement(By.CssSelector(".btn")).Click();
         driver.FindElement(By.Id("firstName")).Click();
@@ -317,7 +316,7 @@ public class InsuranceQuoteSuiteTest
         driver.FindElement(By.Id("age")).SendKeys("15");
         driver.FindElement(By.Id("experience")).SendKeys("0");
         driver.FindElement(By.Id("accidents")).SendKeys("0");
-        
+
         //Assert
         driver.FindElement(By.Id("btnSubmit")).Click();
         Assert.That(driver.FindElement(By.Id("age-error")).Text, Is.EqualTo("Please enter a value greater than or equal to 16."));
@@ -328,7 +327,7 @@ public class InsuranceQuoteSuiteTest
         //Arrange
         driver.Navigate().GoToUrl("http://localhost/testing/prog8170a04/index.html");
         driver.Manage().Window.Size = new System.Drawing.Size(885, 806);
-        
+
         //Act
         driver.FindElement(By.CssSelector(".btn")).Click();
         driver.FindElement(By.Id("firstName")).Click();
@@ -344,7 +343,7 @@ public class InsuranceQuoteSuiteTest
         driver.FindElement(By.Id("age")).SendKeys("50");
         driver.FindElement(By.Id("experience")).SendKeys("35");
         driver.FindElement(By.Id("accidents")).SendKeys("1");
-        
+
         //Assert
         driver.FindElement(By.Id("btnSubmit")).Click();
         {
@@ -358,7 +357,7 @@ public class InsuranceQuoteSuiteTest
         //Arrange
         driver.Navigate().GoToUrl("http://localhost/testing/prog8170a04/index.html");
         driver.Manage().Window.Size = new System.Drawing.Size(881, 802);
-        
+
         //Act
         driver.FindElement(By.CssSelector(".btn")).Click();
         driver.FindElement(By.Id("firstName")).Click();
@@ -374,7 +373,7 @@ public class InsuranceQuoteSuiteTest
         driver.FindElement(By.Id("age")).SendKeys("40");
         driver.FindElement(By.Id("experience")).SendKeys("34");
         driver.FindElement(By.Id("accidents")).SendKeys("1");
-        
+
         //Assert
         driver.FindElement(By.Id("btnSubmit")).Click();
         {
@@ -390,25 +389,8 @@ public class InsuranceQuoteSuiteTest
         driver.Manage().Window.Size = new System.Drawing.Size(881, 802);
 
         //Act
-        //driver.FindElement(By.CssSelector(".btn")).Click();
-        //{
-        //    var element = driver.FindElement(By.CssSelector(".card:nth-child(1) > div > .form-group:nth-child(3)"));
-        //    Actions builder = new Actions(driver);
-        //    builder.MoveToElement(element).ClickAndHold().Perform();
-        //}
-        //{
-        //    var element = driver.FindElement(By.CssSelector(".card:nth-child(1) > div > .form-group:nth-child(3)"));
-        //    Actions builder = new Actions(driver);
-        //    builder.MoveToElement(element).Perform();
-        //}
-        //{
-        //    var element = driver.FindElement(By.CssSelector(".card:nth-child(1) > div > .form-group:nth-child(3)"));
-        //    Actions builder = new Actions(driver);
-        //    builder.MoveToElement(element).Release().Perform();
-        //}
         driver.FindElement(By.CssSelector(".btn")).Click();
         driver.FindElement(By.Id("firstName")).Click();
-        //driver.FindElement(By.CssSelector(".card:nth-child(1) > div:nth-child(2)")).Click();
         driver.FindElement(By.Id("firstName")).SendKeys("Keval");
         driver.FindElement(By.Id("lastName")).SendKeys("Patel");
         driver.FindElement(By.Id("address")).SendKeys("383 Albert Street");
@@ -435,7 +417,7 @@ public class InsuranceQuoteSuiteTest
         //Arrange
         driver.Navigate().GoToUrl("http://localhost/testing/prog8170a04/index.html");
         driver.Manage().Window.Size = new System.Drawing.Size(882, 804);
-        
+
         //Act
         driver.FindElement(By.CssSelector(".btn")).Click();
         driver.FindElement(By.CssSelector(".card:nth-child(1) > div:nth-child(2)")).Click();
@@ -454,17 +436,6 @@ public class InsuranceQuoteSuiteTest
         driver.FindElement(By.Id("experience")).SendKeys("2");
         driver.FindElement(By.Id("accidents")).Click();
         driver.FindElement(By.Id("accidents")).SendKeys("1");
-        //driver.FindElement(By.Id("btnSubmit")).Click();
-        //{
-        //    var element = driver.FindElement(By.Id("btnSubmit"));
-        //    Actions builder = new Actions(driver);
-        //    builder.MoveToElement(element).Perform();
-        //}
-        //{
-        //    //var element = driver.FindElement(By.tagName("body"));
-        //    //Actions builder = new Actions(driver);
-        //    //builder.MoveToElement(element, 0, 0).Perform();
-        //}
 
         //Assert
         driver.FindElement(By.Id("btnSubmit")).Click();
