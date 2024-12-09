@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kvpat\\source\\repos\\Assignment4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D07FA83-3ADE-451A-B1F5-46FDF2796B38}|Assignment4\\Assignment4.csproj|c:\\users\\kvpat\\source\\repos\\assignment4\\assignment4\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D07FA83-3ADE-451A-B1F5-46FDF2796B38}|Assignment4\\Assignment4.csproj|solutionrelative:assignment4\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\kvpat\\source\\repos\\Assignment4\\Assignment4\\Class1.cs",
+              "RelativeDocumentMoniker": "Assignment4\\Class1.cs",
+              "ToolTip": "C:\\Users\\kvpat\\source\\repos\\Assignment4\\Assignment4\\Class1.cs*",
+              "RelativeToolTip": "Assignment4\\Class1.cs*",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAuwGwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T06:33:26.661Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
